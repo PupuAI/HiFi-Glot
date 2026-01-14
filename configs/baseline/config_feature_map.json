@@ -1,0 +1,23 @@
+{
+    "type": "WaveNet",
+    "n_feat": 8,
+    "n_out": 128,
+    "pre_train_steps": 0,
+    "res_channels": 256,
+    "skip_channels": 256,
+    "kernel_size": 5,
+    "dilations": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+    ],
+    "causal": false,
+    "envelope_loss_l1_weight": 1.0,
+    "envelope_loss_l2_weight": 0.0,
+    "envelope_loss_log_domain": true
+}

@@ -1,0 +1,13 @@
+{
+"datasets":[
+    {
+        "name": "AIShell",
+        "path": "{PATH_TO_DATASET}/",
+        "type": "json",
+        "source": "huggingface"
+    }
+],
+
+"filelist_path": "dataset/filelist"
+
+}
