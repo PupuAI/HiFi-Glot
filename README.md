@@ -12,7 +12,7 @@
 
 # HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters
 
-This is the official GitHub model repository for the paper "[HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters](TBD)". which is the first end-to-end neural formant synthesis system that achieves high perceptual quality and precise formant control using a source filter architecture and differentiable resonant filters, as shown below:
+This is the official GitHub model repository for the paper "[HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters](TBD)". which is the first end-to-end neural formant synthesis system that achieves high perceptual quality and precise formant control using a source filter architecture and differentiable resonant filters:
 
 <br>
 <div align="center">
