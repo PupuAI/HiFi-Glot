@@ -1,5 +1,5 @@
 <p align="center">
-<img src='images/logo.png' style="text-align: center; width: 150px" >
+<img src='images/logo.png' style="text-align: center; width: 100px" >
 </p>
 
 <div align="center">
@@ -12,11 +12,11 @@
 
 # HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters
 
-This is the official Hugging Face model repository for the paper "[HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters](TBD)". which is the first end-to-end neural formant synthesis system that achieves high perceptual quality and precise formant control, as shown below:
+This is the official GitHub model repository for the paper "[HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters](TBD)". which is the first end-to-end neural formant synthesis system that achieves high perceptual quality and precise formant control using a source filter architecture and differentiable resonant filters, as shown below:
 
 <br>
 <div align="center">
-<img src="images/model.png" width="90%">
+<img src="images/model.png" width="100%">
 </div>
 <br>
 
@@ -100,7 +100,7 @@ Adjust the `configs/{model}/config_{module}.json` to specify the hyperparameters
 ```json
 {
   ... ...
-  // TODO: Choose a suitable batch size, training epoch, and save stride
+  // TODO: Choose a suitable batch size
   "batch_size": 32,
   ... ...
 }
@@ -158,7 +158,7 @@ Our project is under the [MIT License](LICENSE). It is free for both research an
 ```bibtex
 @article{afgen,
   title        = {HiFi-Glot: High-Fidelity Neural Formant Synthesis with Differentiable Resonant Filters},
-  author       = {TBD},
+  author       = {Yicheng Gu and Pablo Pérez Zarazaga and Chaoren Wang and Zhizheng Wu and Gustav Eje Henter and Zofia Malisz and Lauri Juvela},
   year         = {2025},
   journal      = {TBD},
 }
